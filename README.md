@@ -1,4 +1,4 @@
-#Esse projeto esta sendo criado devido ao curso de React do Alura para aprimorar meus conhecimentos com a linguagem
+# Esse projeto esta sendo criado devido ao curso de React do Alura para aprimorar meus conhecimentos com a linguagem
 
 Estou utilizando a plataforma Alura para aprender um pouco mais sobre o React, portanto esse repositório foi feito e esta sendo construído juntamente ao curso, porém com algumas modificações particulares para melhor entendimento do curso
 
