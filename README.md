@@ -1,3 +1,7 @@
+# Esse projeto esta sendo criado devido ao curso de React do Alura para aprimorar meus conhecimentos com a linguagem
+
+Estou utilizando a plataforma Alura para aprender um pouco mais sobre o React, portanto esse repositório foi feito e esta sendo construído juntamente ao curso, porém com algumas modificações particulares para melhor entendimento do curso
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
