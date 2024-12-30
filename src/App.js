@@ -27,19 +27,22 @@ function App() {
       corSecundaria: '#D9F7E9'
     }
   ];
-  
+
   const [agentes, setAgentes] = useState([])
-  
+
   const aoAgenteNovo = (agente) => {
-    console.log(agente)
     setAgentes([...agentes, agente])
   }
 
   return (
     <div className="App">
       <Banner />
-      <Formulario funcao={classes.map(classe => classe.nome)} aoAgenteCadastrado={aoAgenteNovo}/>
-      {classes.map(classe => <Classe key={classe.nome} nome={classe.nome} corPrimaria={classe.corPrimaria} corSecundaria={classe.corSecundaria}/>)}
+      <Formulario funcao={classes.map(classe => classe.nome)} aoAgenteCadastrado={aoAgenteNovo} />
+      {classes.map(classe => <Classe 
+       nome={classe.nome} 
+       corPrimaria={classe.corPrimaria} 
+       corSecundaria={classe.corSecundaria} 
+       agentes={agentes.filter(agente => agente.funcaoAgente === classe.nome)}/>)}
     </div>
   );
 }

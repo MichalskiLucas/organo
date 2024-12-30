@@ -17,6 +17,9 @@ const Formulario = (props) => {
             imagem,
             funcaoAgente
         });
+        setAgente('');
+        setImagem('');
+        setFuncaoAgente('');
     }
 
     return (
