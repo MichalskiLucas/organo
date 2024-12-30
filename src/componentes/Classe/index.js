@@ -6,7 +6,7 @@ const Classe = (props) => {
         props.agentes.length > 0 && <section className='classe' style={{ backgroundColor: props.corSecundaria }}>
             <h3 style={{ borderColor: props.corPrimaria }}>{props.nome}</h3>
             <div className='agentes'>
-                {props.agentes.map(agente => <Campeao agente={agente.agente} cargo={agente.funcaoAgente} imagem={agente.imagem} />)}
+                {props.agentes.map(agente => <Campeao key={agente.agente} corPrimaria={props.corPrimaria} agente={agente.agente} cargo={agente.funcaoAgente} imagem={agente.imagem} />)}
             </div>
         </section>
     );

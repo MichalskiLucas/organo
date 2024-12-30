@@ -1,9 +1,9 @@
 import './Campeao.css'
 
-const Campeao = ({agente, imagem, cargo}) => {
+const Campeao = ({agente, imagem, cargo, corPrimaria}) => {
     return (
         <div className='campeao'>
-            <div className='cabecalho'>
+            <div className='cabecalho' style={{ backgroundColor: corPrimaria }}>
                 <img src={imagem} alt={agente} />
             </div>
             <div className='rodape'>

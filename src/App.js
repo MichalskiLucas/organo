@@ -39,6 +39,7 @@ function App() {
       <Banner />
       <Formulario funcao={classes.map(classe => classe.nome)} aoAgenteCadastrado={aoAgenteNovo} />
       {classes.map(classe => <Classe 
+       key={classe.nome}
        nome={classe.nome} 
        corPrimaria={classe.corPrimaria} 
        corSecundaria={classe.corSecundaria} 
