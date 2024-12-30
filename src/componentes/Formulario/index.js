@@ -6,13 +6,6 @@ import { useState } from 'react';
 
 const Formulario = (props) => {
 
-    const funcao = [
-        'Controlador',
-        'Duelista',
-        'Sentinela',
-        'Iniciador'
-    ];
-
     const [agente, setAgente] = useState('');
     const [imagem, setImagem] = useState('');
     const [funcaoAgente, setFuncaoAgente] = useState('');
@@ -32,7 +25,7 @@ const Formulario = (props) => {
                 <h2>Preencha os dados para criar o card do agente</h2>
                 <CampoTexto obrigatorio={true} label="Agente" placeholder="Digite o nome do Agente" valor={agente} aoAlterado={valor => setAgente(valor)} />
                 <CampoTexto obrigatorio={true} label="Imagem" placeholder="Digite o endereço da imagem" valor={imagem} aoAlterado={valor => setImagem(valor)} />
-                <ListaSuspensa label="Função" itens={funcao} valor={funcaoAgente} aoAlterado={valor => setFuncaoAgente(valor)} />
+                <ListaSuspensa label="Função" itens={props.funcao} valor={funcaoAgente} aoAlterado={valor => setFuncaoAgente(valor)} />
                 <Botao>Criar Card</Botao>
             </form>
         </section>
