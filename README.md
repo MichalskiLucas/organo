@@ -2,6 +2,8 @@
 
 Estou utilizando a plataforma Alura para aprender um pouco mais sobre o React, portanto esse repositório foi feito e esta sendo construído juntamente ao curso, porém com algumas modificações particulares para melhor entendimento do curso
 
+Foi realizado a publicação no seguinte link: https://organo-zeta-one.vercel.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
